@@ -1,9 +1,12 @@
 # SDL.txt — Sus Domain List
 # Updated: 2026-06-04
-# Format: apex domains only. Subdomains are implicitly blocked.
+# Format: apex domains only.
 moscitystroy-b2b.ru
+romiongroup.ru
+romion.ru
 sinarastroygroup.ru
 sinarastroy.ru
+vyalkov-trade.ru
 velesstoygroup.ru
 velesstroygroup.ru
 asbgrupp.com
@@ -16,7 +19,3 @@ domeingroup.ru
 betboomgroup.ru
 talan.spb.ru
 талан.спб.рф
-whereforeone.ru
-romiongroup.ru
-romion.ru
-vyalkov-trade.ru
