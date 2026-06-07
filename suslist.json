@@ -1,0 +1,211 @@
+[
+  {
+    "domain": "moscitystroy-b2b.ru",
+    "match_mode": "subtree",
+    "phone": null,
+    "target_id": { "type": "inn", "value": "9703009229" },
+    "target_name": "ООО «МОССИТИСТРОЙ»",
+    "first_seen": "2026-03-12",
+    "last_updated": "2026-06-04",
+    "source_reports": ["RPT-02-20260522"],
+    "note": "Домен-клон, мимикрия под легитимное предприятие. Администратор скрыт (Частное лицо)."
+  },
+  {
+    "domain": "romiongroup.ru",
+    "match_mode": "subtree",
+    "phone": null,
+    "target_id": { "type": "inn", "value": "9702012878" },
+    "target_name": "ООО «РОМИОН ГРУПП»",
+    "first_seen": "2026-03-06",
+    "last_updated": "2026-06-04",
+    "source_reports": ["RPT-03-20260529"],
+    "note": "Перехват просроченного домена. Используется для фишинга и имитации корпоративной коммуникации."
+  },
+  {
+    "domain": "romion.ru",
+    "match_mode": "subtree",
+    "phone": null,
+    "target_id": { "type": "inn", "value": "9702012878" },
+    "target_name": "ООО «РОМИОН ГРУПП»",
+    "first_seen": "2026-03-06",
+    "last_updated": "2026-06-04",
+    "source_reports": ["RPT-03-20260529"],
+    "note": "Дополнительный домен, активно используемый в схеме. Не охвачен претензией правообладателя."
+  },  
+  {
+    "domain": null,
+    "match_mode": null,
+    "phone": "+74951462055",
+    "target_id": { "type": "inn", "value": "9702012878" },
+    "target_name": "ООО «РОМИОН ГРУПП»",
+    "first_seen": "2026-04-01",
+    "last_updated": "2026-06-04",
+    "source_reports": ["RPT-03-20260529"],
+    "note": "Общий телефон на поддельном корпоративном сайте (апрель-май 2026)."
+  },
+  {
+    "domain": "sinarastroygroup.ru",
+    "match_mode": "subtree",
+    "phone": null,
+    "target_id": { "type": "inn", "value": "6685184251" },
+    "target_name": "ООО «СИНАРАСТРОЙКОМПЛЕКТ»",
+    "first_seen": "2024-12-22",
+    "last_updated": "2026-06-04",
+    "source_reports": ["RPT-04-20260529"],
+    "note": "Использовался для хищения ТМЦ."
+  },
+  {
+    "domain": "sinarastroy.ru",
+    "match_mode": "subtree",
+    "phone": null,
+    "target_id": { "type": "inn", "value": "6685184251" },
+    "target_name": "ООО «СИНАРАСТРОЙКОМПЛЕКТ»",
+    "first_seen": "2024-10-11",
+    "last_updated": "2026-06-04",
+    "source_reports": ["RPT-04-20260529"],
+    "note": "Дополнительный домен для работы от лица ООО «СИНАРАСТРОЙКОМПЛЕКТ»."
+  },
+  {
+    "domain": "vyalkov-trade.ru",
+    "match_mode": "subtree",
+    "phone": null,
+    "target_id": { "type": "inn", "value": "6685184251" },
+    "target_name": "ООО «СИНАРАСТРОЙКОМПЛЕКТ»",
+    "first_seen": "2025-01-01",
+    "last_updated": "2026-06-04",
+    "source_reports": ["RPT-04-20260529"],
+    "note": "Вспомогательный домен для рассылки запросов (info@vyalkov-trade.ru)."
+  },
+  {
+    "domain": "velesstoygroup.ru",
+    "match_mode": "subtree",
+    "phone": null,
+    "target_id": { "type": "inn", "value": "7709787790" },
+    "target_name": "ООО «ВЕЛЕССТРОЙ»",
+    "first_seen": "2025-05-19",
+    "last_updated": "2026-06-04",
+    "source_reports": ["RPT-04-20260529"],
+    "note": "Домен-клон, опечатка в наименовании."
+  },
+  {
+    "domain": "velesstroygroup.ru",
+    "match_mode": "subtree",
+    "phone": null,
+    "target_id": { "type": "inn", "value": "7709787790" },
+    "target_name": "ООО «ВЕЛЕССТРОЙ»",
+    "first_seen": "2025-05-28",
+    "last_updated": "2026-06-04",
+    "source_reports": ["RPT-04-20260529"],
+    "note": "Домен-клон с добавлением суффикса 'group'."
+  },
+  {
+    "domain": "asbgrupp.com",
+    "match_mode": "subtree",
+    "phone": null,
+    "target_id": { "type": "inn", "value": "6824004406" },
+    "target_name": "ГК «АСБ» / ООО «КРИСТАЛЛ»",
+    "first_seen": "2025-07-10",
+    "last_updated": "2026-06-04",
+    "source_reports": ["RPT-04-20260529"],
+    "note": "Домен-клон, изменение доменной зоны на .com и опечатка (grupp)."
+  },
+  {
+    "domain": "mkmstandartstroy.ru",
+    "match_mode": "subtree",
+    "phone": null,
+    "target_id": { "type": "inn", "value": "7816728365" },
+    "target_name": "ООО «МКМ СТАНДАРТ-СТРОЙ»",
+    "first_seen": "2025-05-28",
+    "last_updated": "2026-06-04",
+    "source_reports": ["RPT-04-20260529"],
+    "note": "Организация признана банкротом. Домен используется для хищений."
+  },
+  {
+    "domain": "techlenkom.ru",
+    "match_mode": "subtree",
+    "phone": null,
+    "target_id": { "type": "inn", "value": "5838046370" },
+    "target_name": "ООО «ЛЕНКОМТЕХ»",
+    "first_seen": "2025-01-27",
+    "last_updated": "2026-06-04",
+    "source_reports": ["RPT-04-20260529"],
+    "note": "Домен-клон, перестановка слов/букв."
+  },
+  {
+    "domain": "lenk-tech.ru",
+    "match_mode": "subtree",
+    "phone": null,
+    "target_id": { "type": "inn", "value": "5838046370" },
+    "target_name": "ООО «ЛЕНКОМТЕХ»",
+    "first_seen": "2025-01-27",
+    "last_updated": "2026-06-04",
+    "source_reports": ["RPT-04-20260529"],
+    "note": "Домен-клон, модификация наименования."
+  },
+  {
+    "domain": "hepsor.net",
+    "match_mode": "subtree",
+    "phone": null,
+    "target_id": { "type": "reg_code", "value": "12099216" },
+    "target_name": "Hepsor AS (Эстония)",
+    "first_seen": "2025-03-17",
+    "last_updated": "2026-06-04",
+    "source_reports": ["RPT-04-20260529"],
+    "note": "Домен-клон, изменение доменной зоны на .net."
+  },
+  {
+    "domain": "zernoefir.ru",
+    "match_mode": "subtree",
+    "phone": null,
+    "target_id": null,
+    "target_name": "Зерновые проекты (zerno.ru и др.)",
+    "first_seen": "2025-04-03",
+    "last_updated": "2026-06-04",
+    "source_reports": ["RPT-04-20260529"],
+    "note": "Домен-клон зерновых проектов."
+  },
+  {
+    "domain": "domeingroup.ru",
+    "match_mode": "subtree",
+    "phone": null,
+    "target_id": null,
+    "target_name": "ИТ проекты",
+    "first_seen": "2025-05-27",
+    "last_updated": "2026-06-04",
+    "source_reports": ["RPT-04-20260529"],
+    "note": "Домен для представления каким-либо регистратором домена или ИТ-проектом."
+  },
+  {
+    "domain": "betboomgroup.ru",
+    "match_mode": "subtree",
+    "phone": null,
+    "target_id": { "type": "inn", "value": "7705005321" },
+    "target_name": "ООО ФИРМА «СТОМ» (BetBoom)",
+    "first_seen": "2025-05-27",
+    "last_updated": "2026-06-04",
+    "source_reports": ["RPT-04-20260529"],
+    "note": "Домен-клон букмекерской конторы BetBoom."
+  },
+  {
+    "domain": "talan.spb.ru",
+    "match_mode": "subtree",
+    "phone": null,
+    "target_id": { "type": "inn", "value": "7806022588" },
+    "target_name": "ООО «ТАЛАН» / ООО «ТАЛАН СПБ»",
+    "first_seen": "2025-01-01",
+    "last_updated": "2026-06-04",
+    "source_reports": ["RPT-04-20260529"],
+    "note": "Домен-клон с использованием субдомена/гео-привязки."
+  },
+  {
+    "domain": "талан.спб.рф",
+    "match_mode": "subtree",
+    "phone": null,
+    "target_id": { "type": "inn", "value": "7806022588" },
+    "target_name": "ООО «ТАЛАН» / ООО «ТАЛАН СПБ»",
+    "first_seen": "2025-01-01",
+    "last_updated": "2026-06-04",
+    "source_reports": ["RPT-04-20260529"],
+    "note": "Домен-клон в кириллической доменной зоне .рф."
+  }
+]
