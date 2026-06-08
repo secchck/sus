@@ -1,7 +1,7 @@
 # SusList: Реестр мошеннических цифровых активов
 
 [![JSON Valid](https://img.shields.io/badge/JSON-Valid-brightgreen)](suslist.json)
-[![Last Updated](https://img.shields.io/badge/Updated-2026--06--04-blue)](suslist.json)
+[![Last Updated](https://img.shields.io/badge/Updated-2026--06--07-blue)](suslist.json)
 [![License](https://img.shields.io/badge/License-Internal%20Use%20Only-red)](LICENSE)
 
 **🌐 Язык: [Русский](README.md)**
