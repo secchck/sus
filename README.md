@@ -33,29 +33,22 @@
 
 ```text
 📁 suslist/
- ├── 📄 suslist.json      # Полный структурированный фид.
+ ├── 📄 suslist.ndjson    # Полный построчный фид.
  ├── 📄 SDL.txt           # Sus Domain List. Только домены (для почтовых и DNS-фильтров).
+ ├── 📄 SML.txt           # Sus Mail List. Только почтовые адреса (для почтовых фильтров).
  ├── 📄 SPHL.txt          # Sus Phones List. Только телефоны в E.164 (для АТС и Call-центров).
  └── 📖 README.md         # Настоящая документация.
 ```
 
-### 🧩 Формат данных и Схема JSON (`suslist.json`)
+### 🧩 Формат данных и Схема NDJSON (`suslist.ndjson`)
 
-Файл представляет собой массив JSON-объектов, оптимизированный для прямого импорта в базы данных.
+Файл представляет собой NDJSON-фид (Newline Delimited JSON), где каждая строка является независимым JSON-объектом.
+Этот формат оптимизирован для потоковой обработки: скриптам не нужно загружать весь файл в оперативную память, а добавление/удаление записей не требует переписывания всего массива.
 
 **Пример записи:**
 ```json
-{
-  "domain": "exemplegroup.ru",
-  "match_mode": "subtree",
-  "phone": null,
-  "target_id": { "type": "inn", "value": "0000000000" },
-  "target_name": "ООО «ПРИМЕР»",
-  "first_seen": "2024-12-22",
-  "last_updated": "2026-06-04",
-  "source_reports": ["RPT-04-20260529"],
-  "note": "Добавление суффикса 'group'."
-}
+
+{"domain": "exemplegroup.ru", "match_mode": "subtree", "phone": null, "target_id": {"type": "inn", "value": "0000000000"}, "target_name": "ООО «ПРИМЕР»", "first_seen": "2024-12-22", "last_updated": "2026-06-04", "source_reports": ["RPT-04-20260529"], "note": "Добавление суффикса 'group'."}
 ```
 **Описание полей:**
 
@@ -78,12 +71,26 @@
 # SDL.txt — Sus Domain List
 # Updated: 2026-06-04
 # Format: apex domains only.
-# Total entries: 19
+# Total entries: 4
 exemplegroup.ru
 groupexemple.ru
 exemplegrp.ru
 exemplegr.ru
 ```
+### 📄 Sus Mail List (`SML.txt`)
+
+Содержит только почтовые адреса.
+```txt
+# SML.txt — Sus Mail List
+# Updated: 2026-06-04
+# Format: email only.
+# Total entries: 4
+info@exemplegroup.ru
+user@groupexemple.ru
+*@exemplegrp.ru
+office@exemplegr.ru
+```
+
 ### 📄 Sus Phones List (`SPHL.txt`)
 
 Содержит только телефоны в строгом формате E.164 (без пробелов, скобок и дефисов), готовом для импорта в любую АТС.
