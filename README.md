@@ -1,7 +1,7 @@
 # SusList: Реестр мошеннических цифровых активов
 
-[![JSON Valid](https://img.shields.io/badge/JSON-Valid-brightgreen)](suslist.json)
-[![Last Updated](https://img.shields.io/badge/Updated-2026--06--07-blue)](suslist.json)
+[![NDJSON Valid](https://img.shields.io/badge/NDJSON-Valid-brightgreen)](suslist.ndjson)
+[![Last Updated](https://img.shields.io/badge/Updated-2026--06--29-blue)](suslist.ndjson)
 [![License](https://img.shields.io/badge/License-Internal%20Use%20Only-red)](LICENSE)
 
 **🌐 Язык: [Русский](README.md)**
@@ -48,7 +48,7 @@
 **Пример записи:**
 ```json
 
-{"domain": "exemplegroup.ru", "match_mode": "subtree", "phone": null, "target_id": {"type": "inn", "value": "0000000000"}, "target_name": "ООО «ПРИМЕР»", "first_seen": "2024-12-22", "last_updated": "2026-06-04", "source_reports": ["RPT-04-20260529"], "note": "Добавление суффикса 'group'."}
+{"domain": "exemplegroup.ru", "match_mode": "subtree", "email": null, "phone": null, "target_id": {"type": "inn", "value": "0000000000"}, "target_name": "ООО «ПРИМЕР»", "first_seen": "2024-12-22", "last_updated": "2026-06-04", "source_reports": ["RPT-04-20260529"], "note": "Добавление суффикса 'group'."}
 ```
 **Описание полей:**
 
@@ -56,7 +56,8 @@
 | :--- | :--- | :--- |
 | domain| string\null | Доменное имя.|
 | match_mode | string\null | Режим блокировки: subtree (блокирует домен и все поддомены), exact (точное совпадение), wildcard (только поддомены). Для записей только с телефоном — null.|
-| phone | string\null | Телефонный номер в строгом формате E.164 (напр., +79876543210).|
+| email | array|null | Массив email-адресов, отличных от выявленного домена. null, если не выявлено.|
+| phone | array|null | Массив телефонных номеров в формате E.164 (напр., +79876543210), null, если не выявлено.|
 | target_id | object\null | Идентификатор имитируемой организации: {type: inn\ogrn\reg_code, value: ...}. null, если организация не установлена.|
 | target_name | string\null | Наименование имитируемой организации (для справки). null, если организация не установлена.|
 | first_seen | date | Дата первого обнаружения (YYYY-MM-DD).|
