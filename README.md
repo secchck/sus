@@ -1,7 +1,7 @@
 # SusList: Реестр мошеннических цифровых активов
 
 [![NDJSON Valid](https://img.shields.io/badge/NDJSON-Valid-brightgreen)](suslist.ndjson)
-[![Last Updated](https://img.shields.io/badge/Updated-2026--06--29-blue)](suslist.ndjson)
+[![Last Updated](https://img.shields.io/badge/Updated-2026--07--03-blue)](suslist.ndjson)
 [![License](https://img.shields.io/badge/License-Internal%20Use%20Only-red)](LICENSE)
 
 **🌐 Язык: [Русский](README.md)**
