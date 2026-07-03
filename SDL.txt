@@ -1,9 +1,11 @@
 # SDL.txt — Sus Domain List
-# Updated: 2026-06-04
-# Format: apex domains only.
+# Updated: 2026-07-03
+# Format: apex domains only
+# Total entries: 20
 moscitystroy-b2b.ru
 romiongroup.ru
 romion.ru
+romiongroup.com
 sinarastroygroup.ru
 sinarastroy.ru
 vyalkov-trade.ru
@@ -12,10 +14,11 @@ velesstroygroup.ru
 asbgrupp.com
 mkmstandartstroy.ru
 techlenkom.ru
-lenk-tech.ru
 hepsor.net
 zernoefir.ru
 domeingroup.ru
 betboomgroup.ru
 talan.spb.ru
 талан.спб.рф
+whereforeone.ru
+capitalstroygroup.com
