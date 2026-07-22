@@ -1,12 +1,11 @@
 # SML.txt — Sus Mail List
-# Updated: 2026-07-03
+# Updated: 2026-07-22
 # Format: email only
-# Total entries: 20
+# Total entries: 25
 edinaya_elektroset_kom@mail.ru
 *@moscitystroy-b2b.ru
 *@romiongroup.ru
 *@romion.ru
-*@romiongroup.com
 *@sinarastroygroup.ru
 *@sinarastroy.ru
 *@vyalkov-trade.ru
@@ -22,3 +21,9 @@ edinaya_elektroset_kom@mail.ru
 *@talan.spb.ru
 *@whereforeone.ru
 *@capitalstroygroup.com
+*@romiongroup.com
+regionalgasnefteprom@mail.ru
+rustam@gmail.com
+skolgazprom@gmail.com
+sachkov.ip25@mail.ru
+*@vseinsstumenti.ru
