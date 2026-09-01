@@ -1,7 +1,7 @@
 # SDL.txt — Sus Domain List
 # Updated: 2026-09-01
 # Format: apex domains only
-# Total entries:
+# Total entries: 33
 moscitystroy-b2b.ru
 romiongroup.ru
 romion.ru
