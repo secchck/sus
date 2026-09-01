@@ -1,7 +1,7 @@
 # SML.txt — Sus Mail List
-# Updated: 2026-07-22
+# Updated: 2026-09-01
 # Format: email only
-# Total entries: 25
+# Total entries:
 edinaya_elektroset_kom@mail.ru
 *@moscitystroy-b2b.ru
 *@romiongroup.ru
